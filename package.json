@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
-  "publishConfig": {
-    "registry": "http://13.232.96.30:9980/swash/repository/nodejs11/"
-  }
   "scripts": {
     "server": "http-server -c-1 -p 9999",
     "start1": "nodemon app.js",
